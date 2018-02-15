@@ -61,7 +61,7 @@ class Matrix
                     m.matrix[rowIndex][colIndex] = result
                 end
             end
-            # finally return the new matrix object
+            # finally return the new matrix object (dot product of 2 matricies)
             return m
         else 
             @matrix.each_with_index do |row, rowIndex|
